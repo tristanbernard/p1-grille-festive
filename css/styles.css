@@ -125,6 +125,11 @@ ul li a:hover {
     margin: auto;
 }
 
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
 h1 {
     text-align: center;
     font-family: 'Cuprum', sans-serif;
@@ -198,6 +203,10 @@ img.section4-image {
     padding-right: 20px;
 }
 
+.section5-h2 {
+    line-height: 1;
+}
+
 .section6 {
     grid-area: f;
     width: 235px;
@@ -227,6 +236,10 @@ img.section4-image {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+.icone:hover path {
+    fill: white;
 }
 
 @media (min-width: 600px) {
